@@ -6,12 +6,25 @@
   <meta name="description" content="2027/2/5–2/10 京都大阪雙人旅行行程">
   <title>2027 京都大阪雙人旅行</title>
   <style>
-    :root{--bg:#f4f0e9;--card:#fffdf9;--ink:#302b27;--muted:#71685f;--red:#963f36;--navy:#294149;--gold:#d0a05a;--line:#e4d9cc;--blue:#27647a;--green:#3c715d;--shop:#6c4f91}
+    :root{--bg:#f4f0e9;--card:#fffdf9;--ink:#302b27;--muted:#71685f;--red:#963f36;--navy:#294149;--gold:#d0a05a;--line:#e4d9cc;--shop:#6c4f91}
     *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang TC","Noto Sans TC",sans-serif;line-height:1.68}
-    .wrap{max-width:980px;margin:auto;padding:18px}.hero{background:linear-gradient(135deg,#294149,#365d66);color:#fff;border-radius:26px;padding:27px;box-shadow:0 14px 35px #2e423522}.eyebrow{font-size:12px;letter-spacing:.22em;color:#f1cf98;font-weight:800}.hero h1{margin:5px 0 4px;font-size:30px}.hero p{margin:0;color:#e8eef0}.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:18px}.stat{background:#ffffff16;border:1px solid #ffffff20;border-radius:16px;text-align:center;padding:10px}.stat b{display:block;font-size:21px}.note{margin-top:16px;background:#ffffff14;border-radius:15px;padding:12px;font-size:13px}
-    .tabs{display:flex;gap:8px;overflow-x:auto;padding:15px 0 9px;position:sticky;top:0;background:linear-gradient(var(--bg) 78%,transparent);z-index:5}.tab{white-space:nowrap;border:1px solid #cabdac;background:#fff;color:var(--ink);border-radius:999px;padding:9px 14px;font-weight:750;cursor:pointer}.tab.active{background:var(--red);border-color:var(--red);color:#fff}.panel{display:none}.panel.active{display:block}.card{background:var(--card);border:1px solid var(--line);border-radius:23px;padding:21px;box-shadow:0 10px 25px #73562b10;margin-bottom:14px}.daytag{font-size:12px;letter-spacing:.12em;color:var(--red);font-weight:850}.card h2{font-size:21px;margin:3px 0 14px}.event{padding:15px 0;border-top:1px solid var(--line)}.event:first-of-type{border-top:0}.time{font-weight:850;color:var(--navy)}.meta{color:var(--muted);font-size:14px;margin:5px 0}.tip{margin-top:10px;padding:11px 13px;border-left:4px solid var(--gold);background:#faf4e8;border-radius:10px;font-size:13px}.shopbox{margin-top:11px;padding:12px 13px;background:#f7f1fb;border:1px solid #e4d8ee;border-radius:14px}.shopbox strong{color:var(--shop)}.shopbox ul{margin:7px 0 3px;padding-left:20px}.shopbox li{margin:4px 0}.pill{display:inline-block;font-size:12px;padding:3px 9px;border-radius:999px;margin-left:6px;font-weight:800}.must{background:#fde5e2;color:#8c3029}.opt{background:#f6ecd2;color:#75581c}.alt{background:#dff0f6;color:#235d70}.flex{background:#e4f2eb;color:#35634f}.buttons{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}.map,.route,.shoplink{display:inline-block;border-radius:999px;padding:8px 12px;text-decoration:none;font-size:13px;font-weight:800}.map{background:var(--navy);color:#fff}.route{border:1px solid var(--red);color:var(--red);background:#fff}.shoplink{background:var(--shop);color:#fff}.flight-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}.flight{background:#f6f1ea;border-radius:16px;padding:14px}.footer{color:var(--muted);font-size:12px;text-align:center;padding:18px}
-    @media(max-width:660px){.wrap{padding:10px}.hero{padding:21px}.hero h1{font-size:24px}.flight-grid{grid-template-columns:1fr}.tabs{top:0}.card{padding:17px}.stat{font-size:13px}}
-    @media(prefers-color-scheme:dark){:root{--bg:#1e1b19;--card:#2a2622;--ink:#f4ede5;--muted:#c9bbae;--line:#493f36}.tab,.route{background:#2a2622}.flight{background:#37302a}.tip{background:#3a3225}.shopbox{background:#332b3b;border-color:#51435e}.shopbox strong{color:#d7b7f1}}
+    .wrap{max-width:980px;margin:auto;padding:18px}
+    .hero{background:linear-gradient(135deg,#294149,#365d66);color:#fff;border-radius:26px;padding:27px;box-shadow:0 14px 35px #2e423522}.eyebrow{font-size:12px;letter-spacing:.22em;color:#f1cf98;font-weight:800}.hero h1{margin:5px 0 4px;font-size:30px}.hero p{margin:0;color:#e8eef0}.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:18px}.stat{background:#ffffff16;border:1px solid #ffffff20;border-radius:16px;text-align:center;padding:10px}.stat b{display:block;font-size:21px}.note{margin-top:16px;background:#ffffff14;border-radius:15px;padding:12px;font-size:13px}
+    .tabs{display:flex;gap:8px;overflow-x:auto;padding:15px 0 9px;position:sticky;top:0;background:linear-gradient(var(--bg) 78%,transparent);z-index:5}.tab{white-space:nowrap;border:1px solid #cabdac;background:#fff;color:var(--ink);border-radius:999px;padding:9px 14px;font-weight:750;cursor:pointer}.tab.active{background:var(--red);border-color:var(--red);color:#fff}
+    .panel{display:none}.panel.active{display:block}.card{background:var(--card);border:1px solid var(--line);border-radius:23px;padding:21px;box-shadow:0 10px 25px #73562b10;margin-bottom:14px}.daytag{font-size:12px;letter-spacing:.12em;color:var(--red);font-weight:850}.card h2{font-size:21px;margin:3px 0 14px}
+    .event{display:block;padding:15px 0;border-top:1px solid var(--line)}.event:first-of-type{border-top:0}.time{font-weight:850;color:var(--navy)}.meta{color:var(--muted);font-size:14px;margin:5px 0}
+    .tip{margin-top:10px;padding:11px 13px;border-left:4px solid var(--gold);background:#faf4e8;border-radius:10px;font-size:13px}
+    .pill{display:inline-block;font-size:12px;padding:3px 9px;border-radius:999px;margin-left:6px;font-weight:800}.must{background:#fde5e2;color:#8c3029}.alt{background:#dff0f6;color:#235d70}
+    .buttons{display:flex;flex-wrap:wrap;align-items:flex-start;gap:8px;margin-top:10px}
+    .map,.route,.shoplink{display:inline-block;height:auto;line-height:1.3;border-radius:999px;padding:8px 12px;text-decoration:none;font-size:13px;font-weight:800;white-space:nowrap}.map{background:var(--navy);color:#fff}.route{border:1px solid var(--red);color:var(--red);background:#fff}.shoplink{background:var(--shop);color:#fff}
+    .shopbox,.transitbox{display:block;width:100%;clear:both;margin-top:12px;padding:12px 14px;border-radius:14px;font-size:14px;color:var(--ink)}
+    .shopbox{background:#f7f1fb;border:1px solid #e4d8ee}.shopbox strong{color:var(--shop)}
+    .transitbox{background:#edf5f4;border:1px solid #cfe2df}.transitbox strong{color:var(--navy)}
+    .shopbox ul,.transitbox ul{margin:7px 0 3px;padding-left:20px}.shopbox li,.transitbox li{margin:4px 0}
+    .flight-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}.flight{background:#f6f1ea;border-radius:16px;padding:14px}
+    .notes .event .meta{color:var(--ink)}.footer{color:var(--muted);font-size:12px;text-align:center;padding:18px}
+    @media(max-width:660px){.wrap{padding:10px}.hero{padding:21px}.hero h1{font-size:24px}.flight-grid{grid-template-columns:1fr}.card{padding:17px}.stat{font-size:13px}}
+    @media(prefers-color-scheme:dark){:root{--bg:#1e1b19;--card:#2a2622;--ink:#f4ede5;--muted:#c9bbae;--line:#493f36;--navy:#a6cdd6}.tab,.route{background:#2a2622}.map{background:#294149;color:#fff}.flight{background:#37302a}.tip{background:#3a3225}.shopbox{background:#332b3b;border-color:#51435e}.shopbox strong{color:#d7b7f1}.transitbox{background:#243633;border-color:#38534f}}
   </style>
 </head>
 <body>
@@ -21,7 +34,7 @@
     <h1>2027 京都大阪雙人旅行</h1>
     <p>2月5日－2月10日 · 京都2晚＋大阪3晚 · 彈性行程版</p>
     <div class="stats"><div class="stat"><b>6</b>天</div><div class="stat"><b>2</b>人</div><div class="stat"><b>5</b>夜</div></div>
-    <div class="note">景點可依天氣、體力及排隊狀況調整。購物店均放在所在區域備註中，不需逐間完成；2027年1月中下旬再確認營業、休館與交通資訊。</div>
+    <div class="note">景點可依天氣、體力及排隊狀況調整。購物店均放在所在區域備註中，不需逐間完成；交通時間為概估，2027年1月中下旬再確認營業、休館與交通資訊。</div>
   </header>
   <nav class="tabs" aria-label="每日行程">
     <button class="tab active" data-panel="d1">2/5 抵達</button><button class="tab" data-panel="d2">2/6 京都</button><button class="tab" data-panel="d3">2/7 嵐山→大阪</button><button class="tab" data-panel="d4">2/8 大阪城→天滿</button><button class="tab" data-panel="d5">2/9 難波→道頓堀</button><button class="tab" data-panel="d6">2/10 回程</button>
@@ -29,55 +42,82 @@
   <main>
     <section id="d1" class="panel active"><article class="card"><div class="daytag">DAY 1 · 輕鬆抵達</div><h2>桃園 → 關西機場 → 京都</h2>
       <div class="flight"><b>中華航空 CI172</b><div class="meta">14:20 桃園T2 → 17:50 關西T1</div></div>
-      <div class="event"><div class="time">17:50–19:10</div><div class="meta">入境、領行李，準備ICOCA及高速列車車票。</div></div>
-      <div class="event"><div class="time">約19:30｜JR HARUKA前往京都</div></div>
+      <div class="event"><div class="time">17:50–19:10</div><div class="meta">入境、領行李，準備 IC 卡及 HARUKA 車票。</div></div>
+      <div class="event"><div class="time">約19:30｜JR HARUKA前往京都</div>
+        <div class="transitbox"><strong>🚆 交通｜關西機場 → 京都飯店（約1小時30分）</strong><ul><li>入境大廳步行至 JR 關西機場站：約10分鐘</li><li>JR 特急 HARUKA 至京都站：搭車約80分鐘</li><li>京都站步行至飯店：約5分鐘</li><li>需提前預約指定席，詳見最下方「建議提前預約」</li></ul></div>
+      </div>
       <div class="event"><div class="time">約21:00｜入住＋簡單晚餐</div><div class="meta">入住 Rihga Gran Kyoto；京都站或飯店附近簡單用餐，不再增加景點。</div><div class="buttons"><a class="map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Rihga%20Gran%20Kyoto">飯店地圖</a><a class="route" target="_blank" rel="noopener" href="https://www.google.com/maps/dir/?api=1&origin=Kansai%20International%20Airport&destination=Rihga%20Gran%20Kyoto&travelmode=transit">機場→飯店</a></div></div>
     </article></section>
+
     <section id="d2" class="panel"><article class="card"><div class="daytag">DAY 2 · 京都古都散步</div><h2>伏見稻荷＋清水寺＋東山祇園</h2>
-      <div class="event"><div class="time">08:30–10:30｜伏見稻荷大社 <span class="pill must">必去</span></div><div class="meta">本殿、千本鳥居、奧社奉拜所；拍照參拜後折返，不完整登頂。</div><div class="buttons"><a class="map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=伏見稲荷大社">景點地圖</a><a class="route" target="_blank" rel="noopener" href="https://www.google.com/maps/dir/?api=1&origin=Rihga%20Gran%20Kyoto&destination=伏見稲荷大社&travelmode=transit">飯店→伏見稻荷</a></div></div>
-      <div class="event"><div class="time">10:30–11:30｜參道點心＋移動休息</div><div class="meta">稻荷壽司、烤糰子或熱飲；保留體力給下午步行。</div></div>
+      <div class="event"><div class="time">08:30–10:30｜伏見稻荷大社 <span class="pill must">必去</span></div><div class="meta">本殿、千本鳥居、奧社奉拜所；拍照參拜後折返，不完整登頂。</div><div class="buttons"><a class="map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=伏見稲荷大社">景點地圖</a><a class="route" target="_blank" rel="noopener" href="https://www.google.com/maps/dir/?api=1&origin=Rihga%20Gran%20Kyoto&destination=伏見稲荷大社&travelmode=transit">飯店→伏見稻荷</a></div>
+        <div class="transitbox"><strong>🚆 交通｜飯店 → 伏見稻荷（約20分鐘）</strong><ul><li>飯店步行至京都站 JR 奈良線月台：約10分鐘</li><li>JR 奈良線普通車至稻荷站：搭車約5分鐘</li><li>出站步行至大社入口：約2分鐘</li><li>直接刷 ICOCA、Suica 等全國互通 IC 卡</li></ul></div>
+      </div>
+      <div class="event"><div class="time">10:30–11:30｜參道點心＋移動休息</div><div class="meta">稻荷壽司、烤糰子或熱飲；保留體力給下午步行。</div>
+        <div class="transitbox"><strong>🚆 交通｜伏見稻荷 → 清水寺（約40分鐘）</strong><ul><li>步行至京阪伏見稻荷站：約5分鐘</li><li>京阪本線至清水五條站：搭車約8分鐘</li><li>步行上坡至清水寺：約20–25分鐘（或計程車約10分鐘）</li><li>直接刷 ICOCA、Suica 等全國互通 IC 卡</li></ul></div>
+      </div>
       <div class="event"><div class="time">12:00–17:00｜清水寺 → 東山 → 祇園 <span class="pill must">主行程</span></div><div class="meta">清水寺 → 三年坂（產寧坂）→ 二年坂（二寧坂）→ 八坂塔周邊 → 寧寧之道 → 八坂神社 → 祇園。</div>
         <div class="tip"><b>二年坂、三年坂散步方式：</b>兩處不用拆成獨立景點。從清水寺下山本來就會順路經過，沿途邊走、邊拍照、邊逛和菓子、抹茶與雜貨小店即可；遇到喜歡的店再停，不需要設定完成時間。</div>
-        <div class="buttons"><a class="map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=清水寺%20京都">清水寺</a><a class="map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=産寧坂%20京都">三年坂</a><a class="map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=二寧坂%20京都">二年坂</a><a class="map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=祇園白川%20京都">祇園</a></div></div>
-      <div class="event"><div class="time">17:00後｜河原町／新京極 <span class="pill alt">視體力</span></div><div class="meta">有精神再逛；累了就找晚餐回飯店。錦市場傍晚多數店家陸續收攤，不列必去。</div><div class="buttons"><a class="map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=新京極商店街%20京都">新京極地圖</a></div></div>
+        <div class="buttons"><a class="map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=清水寺%20京都">清水寺</a><a class="map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=産寧坂%20京都">三年坂</a><a class="map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=二寧坂%20京都">二年坂</a><a class="map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=祇園白川%20京都">祇園</a></div>
+        <div class="transitbox"><strong>🚶 交通｜清水寺 → 祇園（全程步行）</strong><ul><li>清水寺至八坂神社純步行約30分鐘；邊逛邊走約2–3小時</li><li>東山一帶公車常客滿塞車，這段建議全程步行</li></ul></div>
+      </div>
+      <div class="event"><div class="time">17:00後｜河原町／新京極 <span class="pill alt">視體力</span></div><div class="meta">有精神再逛；累了就找晚餐回飯店。錦市場傍晚多數店家陸續收攤，不列必去。</div><div class="buttons"><a class="map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=新京極商店街%20京都">新京極地圖</a></div>
+        <div class="transitbox"><strong>🚆 交通｜祇園／河原町 → 飯店（約25分鐘）</strong><ul><li>步行至京阪祇園四條站：約5分鐘</li><li>京阪本線至七條站：搭車約4分鐘</li><li>七條站步行至飯店：約15分鐘</li><li>或計程車直達：約15–20分鐘</li><li>電車直接刷 ICOCA、Suica 等全國互通 IC 卡</li></ul></div>
+      </div>
     </article></section>
+
     <section id="d3" class="panel"><article class="card"><div class="daytag">DAY 3 · 自然景觀→昭和大阪</div><h2>嵐山竹林 → 渡月橋 → 新世界</h2>
-      <div class="event"><div class="time">08:30｜退房、寄放行李</div><div class="meta">從京都站搭JR嵯峨野線至JR嵯峨嵐山站。</div></div>
+      <div class="event"><div class="time">08:30｜退房、寄放行李</div><div class="meta">行李寄放在京都飯店，下午回來取。</div>
+        <div class="transitbox"><strong>🚆 交通｜飯店 → 嵐山竹林（約40分鐘）</strong><ul><li>飯店步行至京都站 JR 嵯峨野線月台：約10分鐘</li><li>JR 嵯峨野線至嵯峨嵐山站：搭車約15–20分鐘</li><li>步行至竹林：約12分鐘</li><li>直接刷 ICOCA、Suica 等全國互通 IC 卡</li></ul></div>
+      </div>
       <div class="event"><div class="time">09:30–10:15｜嵐山竹林 <span class="pill must">必去</span></div><div class="meta">本日核心；竹林拍照為主。</div><div class="buttons"><a class="map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=嵐山竹林小径">竹林地圖</a></div></div>
-      <div class="event"><div class="time">10:15–11:10｜天龍寺 <span class="pill alt">可刪</span></div><div class="meta">若時間或體力不足，保留竹林與渡月橋即可，避免連續寺院造成疲勞。</div><div class="buttons"><a class="map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=天龍寺%20京都">天龍寺地圖</a></div></div>
-      <div class="event"><div class="time">11:20–12:10｜渡月橋＋桂川</div><div class="meta">河畔散步，之後在嵐山街區吃午餐。</div><div class="buttons"><a class="map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=渡月橋%20京都">渡月橋地圖</a></div></div>
-      <div class="event"><div class="time">13:00–16:30｜回京都取行李，移動大阪</div><div class="meta">抵達 Nikko Tsutenkaku 後辦理入住、放行李。</div><div class="buttons"><a class="map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Nikko%20Tsutenkaku%20Osaka">大阪飯店</a><a class="route" target="_blank" rel="noopener" href="https://www.google.com/maps/dir/?api=1&origin=Rihga%20Gran%20Kyoto&destination=Nikko%20Tsutenkaku&travelmode=transit">京都飯店→大阪飯店</a></div></div>
-      <div class="event"><div class="time">17:00–19:00｜新世界＋通天閣</div><div class="meta">新世界商店街 → JANJAN橫丁 → 通天閣。登塔為選配，只拍外觀不用預約。</div><div class="buttons"><a class="map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=新世界%20大阪">新世界</a><a class="map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=通天閣%20大阪">通天閣</a></div></div>
-      <div class="event"><div class="time">19:00後｜新世界晚餐</div><div class="meta">串炸、大阪燒、章魚燒或日式定食；餐後步行回飯店。</div></div>
-    </article></section>
-    <section id="d4" class="panel"><article class="card"><div class="daytag">DAY 4 · 歷史→現代→在地大阪</div><h2>大阪城 → GRAND GREEN → HARBS → 天滿</h2>
-      <div class="event"><div class="time">10:00–12:00｜大阪城</div><div class="meta">大阪城公園與天守閣外觀；是否入館依排隊與興趣決定。</div><div class="buttons"><a class="map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=大阪城天守閣">大阪城地圖</a></div></div>
-      <div class="event"><div class="time">12:00–13:30｜午餐＋前往梅田</div></div>
+      <div class="event"><div class="time">10:15–11:10｜天龍寺 <span class="pill alt">可刪</span></div><div class="meta">若時間或體力不足，保留竹林與渡月橋即可，避免連續寺院造成疲勞。竹林步行至天龍寺北門約3分鐘。</div><div class="buttons"><a class="map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=天龍寺%20京都">天龍寺地圖</a></div></div>
+      <div class="event"><div class="time">11:20–12:10｜渡月橋＋桂川</div><div class="meta">天龍寺步行至渡月橋約8分鐘；河畔散步，之後在嵐山街區吃午餐。</div><div class="buttons"><a class="map" target="_blank"
+      </div>
       <div class="event"><div class="time">14:00起｜GRAND GREEN OSAKA／梅北 <span class="pill must">推薦</span></div><div class="meta">逛うめきた公園、新建築與公共空間；梅田保留的重點是新城市景觀，不是百貨巡禮。</div><div class="buttons"><a class="map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=GRAND%20GREEN%20OSAKA">GRAND GREEN地圖</a></div>
         <div class="shopbox"><strong>🛍️ 購物備註｜LUCUA大阪 LOFT</strong><ul><li>位置：LUCUA大阪 9F</li><li>目前營業時間：10:30–20:30</li><li>適合：文具、生活雜貨、美妝、旅行小物與小禮物</li><li>大阪站直結，逛完GRAND GREEN順路前往，不另排購物時段</li></ul><a class="shoplink" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=LUCUA大阪ロフト">Google Maps｜LUCUA大阪 LOFT</a></div>
       </div>
-      <div class="event"><div class="time">15:30左右｜HARBS <span class="pill must">必吃</span></div><div class="meta">水果千層與2月草莓季商品；依現場排隊彈性調整分店。</div><div class="buttons"><a class="map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=HARBS%20阪急三番街店">HARBS地圖</a></div></div>
-      <div class="event"><div class="time">16:30–17:30｜天神橋筋商店街</div><div class="meta">不用從一丁目走到六丁目；挑一段逛在地商店、小吃與日常街景即可。</div><div class="buttons"><a class="map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=天神橋筋商店街%20大阪">商店街地圖</a></div></div>
-      <div class="event"><div class="time">18:00後｜天滿／裏天滿晚餐 <span class="pill must">重點體驗</span></div><div class="meta">居酒屋、串燒、海鮮或立吞，當天依排隊與氣氛選店，不必鎖定單一餐廳。</div><div class="buttons"><a class="map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=裏天満%20大阪">裏天滿地圖</a></div></div>
+      <div class="event"><div class="time">15:30左右｜HARBS <span class="pill must">必吃</span></div><div class="meta">水果千層與2月草莓季商品；依現場排隊彈性調整分店。大阪站步行至阪急三番街約5–8分鐘。</div><div class="buttons"><a class="map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=HARBS%20阪急三番街店">HARBS地圖</a></div></div>
+      <div class="event"><div class="time">16:30–17:30｜天神橋筋商店街</div><div class="meta">不用從一丁目走到六丁目；挑一段逛在地商店、小吃與日常街景即可。</div><div class="buttons"><a class="map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=天神橋筋商店街%20大阪">商店街地圖</a></div>
+        <div class="transitbox"><strong>🚆 交通｜梅田 → 天滿（約15分鐘）</strong><ul><li>步行至 JR 大阪站環狀線月台：約5–8分鐘</li><li>JR 大阪環狀線至天滿站：搭車約3分鐘</li><li>出站步行至商店街：約2分鐘</li><li>直接刷 ICOCA、Suica 等全國互通 IC 卡</li></ul></div>
+      </div>
+      <div class="event"><div class="time">18:00後｜天滿／裏天滿晚餐 <span class="pill must">重點體驗</span></div><div class="meta">居酒屋、串燒、海鮮或立吞，當天依排隊與氣氛選店，不必鎖定單一餐廳。</div><div class="buttons"><a class="map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=裏天満%20大阪">裏天滿地圖</a></div>
+        <div class="transitbox"><strong>🚆 交通｜天滿 → 飯店（約30分鐘）</strong><ul><li>JR 天滿站搭大阪環狀線至新今宮站：搭車約20分鐘</li><li>新今宮站步行至飯店：約5分鐘</li><li>直接刷 ICOCA、Suica 等全國互通 IC 卡</li></ul></div>
+      </div>
     </article></section>
+
     <section id="d5" class="panel"><article class="card"><div class="daytag">DAY 5 · 大阪街區＋順路採買</div><h2>難波／千日前 → 心齋橋 → 道頓堀</h2>
-      <div class="event"><div class="time">10:00–11:30｜黑門市場 <span class="pill alt">可刪</span></div><div class="meta">想吃市場早餐／早午餐再去；前晚吃得多或想睡晚一點可直接略過。</div><div class="buttons"><a class="map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=黒門市場%20大阪">市場地圖</a></div></div>
-      <div class="event"><div class="time">11:30–14:00｜難波＋千日前</div><div class="meta">道具屋筋與難波街區為主；難波八阪神社依興趣選擇。</div><div class="buttons"><a class="map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=千日前道具屋筋商店街">道具屋筋</a><a class="map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=難波八阪神社">八阪神社</a></div>
+      <div class="event"><div class="time">10:00–11:30｜黑門市場 <span class="pill alt">可刪</span></div><div class="meta">想吃市場早餐／早午餐再去；前晚吃得多或想睡晚一點可直接略過。</div><div class="buttons"><a class="map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=黒門市場%20大阪">市場地圖</a></div>
+        <div class="transitbox"><strong>🚇 交通｜飯店 → 黑門市場（約20分鐘）</strong><ul><li>飯店步行至 Osaka Metro 動物園前站：約5分鐘</li><li>堺筋線至日本橋站：搭車約4分鐘</li><li>步行至黑門市場：約3–5分鐘</li><li>不去黑門市場：動物園前站搭御堂筋線至難波站約4分鐘</li><li>直接刷 ICOCA、Suica 等全國互通 IC 卡</li></ul></div>
+      </div>
+      <div class="event"><div class="time">11:30–14:00｜難波＋千日前</div><div class="meta">道具屋筋與難波街區為主；難波八阪神社依興趣選擇。黑門市場步行至道具屋筋約10分鐘。</div><div class="buttons"><a class="map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=千日前道具屋筋商店街">道具屋筋</a><a class="map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=難波八阪神社">八阪神社</a></div>
         <div class="shopbox"><strong>🛍️ 難波購物備註｜依時間彈性進店</strong><ul><li><b>A-Price 難波千日前店</b>：業務用食品超市，零食、茶、調味料與大包裝食品；目前約10:00–19:00。</li><li><b>WORKMAN Colors なんばCITY店</b>：なんばCITY南館2F，目前11:00–21:00；找防風、防水與防寒機能服。</li><li><b>Life Central Square 難波店</b>：彈性備案，目前09:00–24:00；若還需大量補零食、泡麵、茶或分送型伴手禮再去。</li></ul><div class="buttons"><a class="shoplink" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=A-Price%20難波千日前店">A-Price地圖</a><a class="shoplink" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=WORKMAN%20Colors%20なんばCITY店">WORKMAN地圖</a><a class="shoplink" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=ライフ%20セントラルスクエアなんば店">Life地圖</a></div></div>
       </div>
       <div class="event"><div class="time">14:00–17:30｜心齋橋＋美國村＋Orange Street</div><div class="meta">視為同一大區域，依興趣選擇路線，不要求全部走完。</div><div class="buttons"><a class="map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=心斎橋筋商店街">心齋橋地圖</a><a class="map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=アメリカ村%20大阪">美國村</a><a class="map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=オレンジストリート%20大阪">Orange Street</a></div>
+        <div class="transitbox"><strong>🚶 交通｜難波 → 心齋橋 → 美國村／Orange Street（全程步行）</strong><ul><li>難波至心齋橋：步行約15分鐘（腳痠可搭御堂筋線1站，約2分鐘）</li><li>心齋橋至美國村：步行約5分鐘</li><li>美國村至 Orange Street：步行約5–10分鐘</li><li>Orange Street 回道頓堀：步行約15分鐘</li></ul></div>
         <div class="shopbox"><strong>💊 藥妝採買順序｜先低價、再補齊</strong><ul><li><b>① OS Drug 心齋橋店</b>：低價優先，先買常備藥、保健品與基礎保養；近期資料約10:00–19:50。</li><li><b>② SUGI藥局 心齋橋店</b>：大型店，OS Drug缺貨的藥品、美妝與日用品在這裡一次補齊；目前約09:00–24:00。</li><li><b>③ 大國藥妝 Ultra心齋橋店</b>：備選，只有看到清單商品明顯特價才進，不必三間都完成。</li></ul><div class="buttons"><a class="shoplink" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=オーエスドラッグ%20心斎橋店">OS Drug地圖</a><a class="shoplink" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=スギ薬局%20心斎橋店">SUGI地圖</a><a class="shoplink" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=ダイコクドラッグ%20ウルトラ心斎橋店">大國地圖</a></div></div>
       </div>
       <div class="event"><div class="time">17:30後｜道頓堀夜景＋晚餐</div><div class="meta">戎橋、固力果跑跑人、道頓堀川、法善寺橫丁；用餐後依體力回飯店。</div><div class="buttons"><a class="map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=道頓堀%20大阪">道頓堀地圖</a><a class="map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=法善寺横丁%20大阪">法善寺橫丁</a></div>
         <div class="shopbox"><strong>🎁 大阪限定伴手禮｜いちびり庵 道頓堀店</strong><ul><li>位置：中座くいだおれ大樓1F</li><li>目前營業時間：10:00–22:00</li><li>適合：大阪限定零食、食倒太郎商品與特色小物</li><li>一般日本零食可在Life買；這裡集中買「大阪限定」</li></ul><a class="shoplink" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=いちびり庵%20道頓堀店">Google Maps｜いちびり庵</a></div>
+        <div class="transitbox"><strong>🚇 交通｜道頓堀 → 飯店（約20分鐘）</strong><ul><li>步行至 Osaka Metro 難波站：約5分鐘</li><li>御堂筋線至動物園前站：搭車約4分鐘</li><li>出站步行至飯店：約5分鐘</li><li>直接刷 ICOCA、Suica 等全國互通 IC 卡</li></ul></div>
       </div>
     </article></section>
+
     <section id="d6" class="panel"><article class="card"><div class="daytag">DAY 6 · 回程</div><h2>一起前往關西機場</h2>
-      <div class="event"><div class="time">07:00退房 · 約07:20搭南海電鐵</div><div class="meta">以11:30起飛的IT285為基準，目標08:20–08:40抵達關西機場第一航廈。大量購物不要留到今天。</div></div>
+      <div class="event"><div class="time">07:00退房 · 約07:20搭南海電鐵</div><div class="meta">以11:30起飛的IT285為基準，目標08:20–08:40抵達關西機場第一航廈。大量購物不要留到今天。</div>
+        <div class="transitbox"><strong>🚆 交通｜飯店 → 關西機場（約1小時）</strong><ul><li>飯店步行至南海新今宮站：約5分鐘</li><li>特急 Rapi:t 至關西機場站：搭車約40分鐘，需提前預約，詳見最下方</li><li>或空港急行：搭車約45分鐘，直接刷 ICOCA、Suica 等全國互通 IC 卡</li><li>關西機場站步行至第一航廈報到櫃台：約5–10分鐘</li></ul></div>
+      </div>
       <div class="flight-grid"><div class="flight"><b>台灣虎航 IT285</b><div class="meta">11:30 KIX → 14:00 KHH<br>託運20公斤</div></div><div class="flight"><b>Thai Lion Air SL397</b><div class="meta">13:40 KIX → 15:40 TPE</div></div></div>
       <div class="buttons" style="margin-top:14px"><a class="map" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=関西国際空港%20第1ターミナル">機場地圖</a><a class="route" target="_blank" rel="noopener" href="https://www.google.com/maps/dir/?api=1&origin=Nikko%20Tsutenkaku&destination=関西国際空港%20第1ターミナル&travelmode=transit">飯店→關西機場</a></div>
     </article></section>
   </main>
+
+  <section class="card notes"><div class="daytag">TRANSPORT · 交通注意事項</div><h2>建議提前預約與兩地搭車須知</h2>
+    <div class="event"><div class="meta"><b>建議提前預約：</b><ul style="margin:6px 0 0;padding-left:20px"><li><b>2/5 JR HARUKA（關西機場→京都）</b>：建議預約指定席，約乘車日前1個月開放；購買訪日優惠票取票時需出示護照。班機可能延誤，選班次時預留入境與領行李時間。</li><li><b>2/10 南海 Rapi:t（新今宮→關西機場）</b>：全車指定席，約乘車日前1個月開放訂位。若不想訂位，可改搭空港急行，直接刷 IC 卡。</li><li>HARUKA、Rapi:t 不能只刷 IC 卡搭乘，需另購特急券／指定席券。</li></ul></div></div>
+    <div class="event"><div class="meta"><b>京都交通注意：</b><ul style="margin:6px 0 0;padding-left:20px"><li>京都市巴士（市中心均一區間）：<b>後門上車、前門下車，下車時刷卡</b>，上車不用刷。</li><li>郊外的整理券區間公車：上車時刷卡或抽整理券，下車時再刷卡。</li><li>清水寺、祇園一帶公車常客滿塞車，能步行就步行，或改搭電車、計程車。</li></ul></div></div>
+    <div class="event"><div class="meta"><b>大阪交通注意：</b><ul style="margin:6px 0 0;padding-left:20px"><li>大阪市巴士：<b>前門上車不用刷，下車時刷卡</b>（均一票價）。本行程以 JR、Osaka Metro 為主，原則上用不到公車。</li><li>JR 大阪站與梅田站、難波各線車站範圍很大，轉乘步行常需5–10分鐘，請預留時間。</li><li>Osaka Metro 與 JR 是不同系統，轉乘需先出站再進站，同一張 IC 卡即可。</li></ul></div></div>
+    <div class="event"><div class="meta"><b>共同提醒：</b>每人各用一張 IC 卡，進出站用同一張；實體卡在車站加值通常只收現金，iPhone 錢包可用信用卡加值；計程車多數可刷 IC 卡，但建議備現金。</div></div>
+  </section>
   <footer class="footer">2027年1月中下旬請再確認2027年2月營業、休館、航班與交通資訊</footer>
 </div>
 <script>
